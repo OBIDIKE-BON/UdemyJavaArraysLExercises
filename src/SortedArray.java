@@ -9,6 +9,7 @@ public class SortedArray {
         System.out.println("enter " + size + " integers. \r");
         for (int i=0;i<array.length;i++ ) {
             array[i]=scanner.nextInt();
+            scanner.nextLine();
         }
         scanner.close();
         System.out.println(Arrays.toString(array));
